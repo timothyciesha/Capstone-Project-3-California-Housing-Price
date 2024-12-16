@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the model
-MODEL_PATH = 'final_lightgbm_model.sav'
+MODEL_PATH = 'final_lightgbm_model.pkl'
 model = joblib.load(MODEL_PATH)
 
 # App title
